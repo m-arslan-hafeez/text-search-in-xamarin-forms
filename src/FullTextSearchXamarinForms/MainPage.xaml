@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="FullTextSearchXamarinForms.MainPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FullTextSearchXamarinForms">
+
+    <StackLayout Margin="12,50,12,12">
+        <Entry x:Name="SearchInput"  HeightRequest="40" Text="" />
+        <Button x:Name="SearchButton" Text="Search" />
+        <Label x:Name="Results"
+               FontSize="Small"
+               LineBreakMode="WordWrap"
+               VerticalOptions="FillAndExpand"
+               VerticalTextAlignment="Center" />
+    </StackLayout>
+
+</ContentPage>
